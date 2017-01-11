@@ -6,6 +6,6 @@ function LOGOUT_ON_INIT(addon, frame)
 	acutil.slashCommand("/lo", LOGOUT_GAME);
 end
 
-function LOGOUT_GAME()
+function LOGOUT_GAME() 
 	app.GameToBarrack(isWillRemain)
 end
