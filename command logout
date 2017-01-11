@@ -1,0 +1,19 @@
+CHAT_SYSTEM('commandlogout ver 1.0.0 is loaded')
+
+local acutil = require('acutil')
+
+local addon_name = 'logout'
+_G['ADDONS'] = _G['ADDONS'] or {}
+_G['ADDONS'][addon_name] = _G['ADDONS'][addon_name] or {}
+local g = _G['ADDONS'][addon_name]
+
+
+
+function LOGOUT_ON_INIT(addon, frame)
+	acutil.slashCommand("/lo", LOGOUT_GAME);
+	acutil.slashCommand("/cl", LOGOUT_GAME);
+end
+
+function LOGOUT_GAME()
+	app.GameToBarrack(isWillRemain)
+end
