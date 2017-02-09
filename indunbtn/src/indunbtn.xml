@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<uiframe name="indunbtn" x="0" y="0" width="170" height="70">
+  <frame title="Indun" snapclient="true" snapframe="true" layout_gravity="center center"/>
+  <option visible="true" alwaysVisible="true" closebutton="false" autoopen="true" hideable="false"/>
+  <input hittest="true" movable="true" moveintitlebar="false" hittestframe="true"/>
+  <layer layerlevel="31"/>
+  <draw blend="100" drawtitlebar="false" drawframe="false"/>
+  <controls>
+    <button name="btnindunbtn" rect="0 0 160 60" margin="0 0 0 0" layout_gravity="center center"
+      LBtnUpArgNum="" LBtnDownScp="ON_CHAT_INDUN_UI_OPEN();" MouseOffAnim="btn_mouseoff"
+      MouseOnAnim="btn_mouseover" skin="btn_lv3" caption="{@st43}Indun">
+      <uieffect effect="I_screen_button" scale="32" overlab="No" sound="None"
+        offset="0 0" playtime="1" duration="1" conditon="active" event="LBUTTONDOWN"/>
+    </button>
+  </controls>
+</uiframe>
