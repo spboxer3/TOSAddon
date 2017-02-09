@@ -6,4 +6,4 @@ Allows back to your barrack by using the commands:
 
 indunbtn
 ----
-create button to open /indun UI
+Create button to open /indun UI
